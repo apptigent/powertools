@@ -1,0 +1,15 @@
+export * from './collections.service';
+import { CollectionsService } from './collections.service';
+export * from './data.service';
+import { DataService } from './data.service';
+export * from './dateTime.service';
+import { DateTimeService } from './dateTime.service';
+export * from './files.service';
+import { FilesService } from './files.service';
+export * from './finance.service';
+import { FinanceService } from './finance.service';
+export * from './math.service';
+import { MathService } from './math.service';
+export * from './text.service';
+import { TextService } from './text.service';
+export const APIS = [CollectionsService, DataService, DateTimeService, FilesService, FinanceService, MathService, TextService];

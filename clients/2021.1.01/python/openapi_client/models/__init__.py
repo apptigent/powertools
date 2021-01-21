@@ -1,0 +1,85 @@
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from openapi_client.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from openapi_client.model.inline_object import InlineObject
+from openapi_client.model.inline_object1 import InlineObject1
+from openapi_client.model.inline_object2 import InlineObject2
+from openapi_client.model.inline_object3 import InlineObject3
+from openapi_client.model.input_calculate_min_max import InputCalculateMinMax
+from openapi_client.model.input_calculate_number import InputCalculateNumber
+from openapi_client.model.input_calculate_numbers import InputCalculateNumbers
+from openapi_client.model.input_calculate_power import InputCalculatePower
+from openapi_client.model.input_calculate_series import InputCalculateSeries
+from openapi_client.model.input_case_conversion import InputCaseConversion
+from openapi_client.model.input_collection_conversion import InputCollectionConversion
+from openapi_client.model.input_collection_conversion_xml import InputCollectionConversionXML
+from openapi_client.model.input_collection_count import InputCollectionCount
+from openapi_client.model.input_collection_filter import InputCollectionFilter
+from openapi_client.model.input_collection_modify import InputCollectionModify
+from openapi_client.model.input_collection_replace import InputCollectionReplace
+from openapi_client.model.input_collection_search import InputCollectionSearch
+from openapi_client.model.input_collection_search_numeric import InputCollectionSearchNumeric
+from openapi_client.model.input_collection_sort import InputCollectionSort
+from openapi_client.model.input_collection_split import InputCollectionSplit
+from openapi_client.model.input_convert_angle import InputConvertAngle
+from openapi_client.model.input_convert_area import InputConvertArea
+from openapi_client.model.input_convert_distance import InputConvertDistance
+from openapi_client.model.input_convert_duration import InputConvertDuration
+from openapi_client.model.input_convert_energy import InputConvertEnergy
+from openapi_client.model.input_convert_power import InputConvertPower
+from openapi_client.model.input_convert_speed import InputConvertSpeed
+from openapi_client.model.input_convert_temperature import InputConvertTemperature
+from openapi_client.model.input_convert_volume import InputConvertVolume
+from openapi_client.model.input_convert_weight import InputConvertWeight
+from openapi_client.model.input_csv_conversion_json import InputCsvConversionJSON
+from openapi_client.model.input_currency_conversion import InputCurrencyConversion
+from openapi_client.model.input_currency_format import InputCurrencyFormat
+from openapi_client.model.input_data_query import InputDataQuery
+from openapi_client.model.input_date_time_conversion import InputDateTimeConversion
+from openapi_client.model.input_date_time_difference import InputDateTimeDifference
+from openapi_client.model.input_date_time_format import InputDateTimeFormat
+from openapi_client.model.input_date_time_info import InputDateTimeInfo
+from openapi_client.model.input_generate_hash import InputGenerateHash
+from openapi_client.model.input_generate_unique_id import InputGenerateUniqueID
+from openapi_client.model.input_join_strings import InputJoinStrings
+from openapi_client.model.input_json_conversion_csv import InputJsonConversionCSV
+from openapi_client.model.input_json_conversion_html import InputJsonConversionHTML
+from openapi_client.model.input_json_conversion_xml import InputJsonConversionXML
+from openapi_client.model.input_market_index import InputMarketIndex
+from openapi_client.model.input_number_range import InputNumberRange
+from openapi_client.model.input_qr_code import InputQRCode
+from openapi_client.model.input_redact_string import InputRedactString
+from openapi_client.model.input_replace_string import InputReplaceString
+from openapi_client.model.input_split_string import InputSplitString
+from openapi_client.model.input_stock_prices import InputStockPrices
+from openapi_client.model.input_string import InputString
+from openapi_client.model.input_string_comparison import InputStringComparison
+from openapi_client.model.input_string_contains import InputStringContains
+from openapi_client.model.input_string_to_file import InputStringToFile
+from openapi_client.model.input_text_to_speech import InputTextToSpeech
+from openapi_client.model.input_translate_string import InputTranslateString
+from openapi_client.model.input_trim_string import InputTrimString
+from openapi_client.model.input_verify_hash import InputVerifyHash
+from openapi_client.model.input_xml_conversion_json import InputXmlConversionJSON
+from openapi_client.model.output_boolean import OutputBoolean
+from openapi_client.model.output_collection_number import OutputCollectionNumber
+from openapi_client.model.output_collection_result import OutputCollectionResult
+from openapi_client.model.output_collection_string import OutputCollectionString
+from openapi_client.model.output_date_difference import OutputDateDifference
+from openapi_client.model.output_date_info import OutputDateInfo
+from openapi_client.model.output_file_byte import OutputFileByte
+from openapi_client.model.output_market_index import OutputMarketIndex
+from openapi_client.model.output_multi_collection import OutputMultiCollection
+from openapi_client.model.output_number import OutputNumber
+from openapi_client.model.output_stock_price import OutputStockPrice
+from openapi_client.model.output_stock_price_result import OutputStockPriceResult
+from openapi_client.model.output_string import OutputString
+from openapi_client.model.output_string_array import OutputStringArray
